@@ -1,5 +1,46 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+
 
 body{
-    background: white;
+    background-image: url("./assets/img/background_light.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    
+    font-size: 80px;
+    color: blue;
+    margin-bottom: 56px;
+    text-align: center;
+    
+}
+
+p.refrescar{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+
+}
+
+h1{
+    
+    font-size: 140px;
+    line-height:90%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2{
+    
+    font-size: 70px;
+    line-height:90%;
+    text-align: center;
+    margin-bottom: 80px;
 }
